@@ -1,9 +1,9 @@
 # Hello, I'm Vaeshnavi Vella
 
-[cite_start]I'm an **AI Engineer** specializing in building **RAG-based GenAI systems**, fine-tuning **LLaMA models**, and developing low-latency AI applications[cite: 4, 12, 18]. [cite_start]While I'm currently volunteering as a **Data Engineer** at the Community Dreams Foundation to build scalable ETL pipelines [cite: 6, 8][cite_start], my core focus is pushing the boundaries of **Agentic Systems** and **Multi-Agent Orchestration**[cite: 19, 26].
+I'm an **AI Engineer** specializing in building **RAG-based GenAI systems**, fine-tuning **LLaMA models**, and developing low-latency AI applications. While I'm currently volunteering as a **Data Engineer** at the Community Dreams Foundation to build scalable ETL pipelines, my core focus is pushing the boundaries of **Agentic Systems** and **Multi-Agent Orchestration**.
 
-🔭 **Current Focus:** Developing production-grade AI agents using **LangGraph** and **LangChain**[cite: 19, 26].
-📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/vaeshnavi-vella) [cite: 3] [cite_start]| vaeshvella18@gmail.com [cite: 3]
+🔭 **Current Focus:** Developing production-grade AI agents using **LangGraph** and **LangChain**.
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/vaeshnavi-vella)| vaeshvella18@gmail.com
 
 ---
 
