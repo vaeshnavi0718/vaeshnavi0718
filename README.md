@@ -34,7 +34,8 @@ I'm an **AI Engineer** specializing in building **RAG-based GenAI systems**, fin
 ## 🚀 Featured Collaborative Projects:
 
 ### [Intelligent Digital Assets Assistant (IDAA)](https://github.com/AdityaNikhil/IDAA)
-**Core Contributor** * Architected a multi-agent system using **LangGraph** and **LangChain**, implementing a Supervisor LLM to route intent-based queries with 90% accuracy.
+**Core Contributor for Advisor Agent** 
+* Architected a multi-agent system using **LangGraph** and **LangChain**, implementing a Supervisor LLM to route intent-based queries with 90% accuracy.
 * Engineered an end-to-end **Agentic RAG pipeline** with **FAISS** vector indexing, achieving sub-200ms retrieval latency.
 * Implemented **Redis caching** and **FastAPI** backends, reducing embedding computation by 60% during high-concurrency periods.
 * Designed semantic retrieval logic (cosine similarity >0.75) for contextually accurate investment recommendations.
