@@ -42,6 +42,14 @@ I'm an **AI Engineer** specializing in building **RAG-based GenAI systems**, fin
 
 ---
 
+---
+## 📓 Tech Journal
+
+I document everything I learn: concepts, paper summaries, interview prep, and weekly notes, in my open learning journal.
+👉 [vaeshnavis-tech-journal](https://github.com/vaeshnavi0718/vaeshnavis-tech-journal)
+*If you're studying AI/ML too, feel free to follow along or use it as a reference.*
+
+---
 ## 🍰 Beyond the Code:
 When I'm not architecting agentic workflows, I’m likely:
 * ☕ **Cafe Hopping:** Exploring the local coffee scene for the best matcha.
