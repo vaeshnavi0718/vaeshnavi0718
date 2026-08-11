@@ -1,5 +1,5 @@
 # Hello, I'm Vaeshnavi Vella
-I'm a **Software & AI Engineer** building full-stack applications and AI-powered products — from **React/Java full-stack features** to **RAG-based GenAI systems** and **multi-agent orchestration**. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
+I'm a **Software & AI Engineer** building full-stack applications and AI-powered products, from **React/Java full-stack features** to **RAG-based GenAI systems** and **multi-agent orchestration**. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
 
 🔭 **Current Focus:** Developing production-grade AI agents using **LangGraph** and **LangChain**, and shipping full-stack features in **React** and **Java/Spring Boot**.
 📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/vaeshnavi-vella) | vaeshvella18@gmail.com
