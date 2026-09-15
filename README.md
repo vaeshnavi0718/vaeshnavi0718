@@ -1,21 +1,22 @@
 # Hello, I'm Vaeshnavi Vella
-I'm a **Software & AI Engineer** building full-stack applications and AI-powered products, from **React/Java full-stack features** to **RAG-based GenAI systems** and **multi-agent orchestration**. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
+I'm a **AI Engineer** building full-stack applications and AI-powered products, from **React/Python full-stack features** to **RAG-based GenAI systems** and **multi-agent orchestration**. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
 
 🔭 **Current Focus:** Developing production-grade AI agents using **LangGraph** and **LangChain**, and shipping full-stack features in **React** and **Java/Spring Boot**.
+
+🆕 **Latest build:** An auditable, human-in-the-loop multi-agent loan underwriting pipeline — [try the live demo](https://loan-underwriting-pipeline.onrender.com) 👇
+
 📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/vaeshnavi-vella) | vaeshvella18@gmail.com
 
 ---
 ## 💻 Tech Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%23000000.svg?style=for-the-badge&logo=render&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-%23E25A1C.svg?style=for-the-badge&logo=apache-spark&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-%23017CEE.svg?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
@@ -30,7 +31,21 @@ I'm a **Software & AI Engineer** building full-stack applications and AI-powered
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ---
-## 🚀 Featured Collaborative Projects:
+## 🚀 Featured Projects:
+
+### 🏦 [Auditable Multi-Agent Loan Underwriting Pipeline](https://github.com/vaeshnavi0718/loan-underwriting-pipeline)
+**Solo-built — architecture, agents, guardrails, and deployment**
+### 🔗 [Live Demo](https://loan-underwriting-pipeline.onrender.com) &nbsp;|&nbsp; 💻 [Source Code](https://github.com/vaeshnavi0718/loan-underwriting-pipeline)
+
+An agentic loan underwriting system built around one hard rule: **the AI can analyze, but only a human can decide.**
+
+* Architected an **Agent Harness** — a central orchestration layer coordinating 4 specialized agents (document extraction, data enrichment, risk analysis, LLM-based review) through a 7-stage pipeline with shared state, routing, retries, and the ability to pause and resume incomplete applications.
+* Enforced a hard guardrail so **no AI agent can ever issue a final approve/deny decision** — verified by an automated test that raises a `GuardrailViolation` if any agent attempts to override it. Final decision authority lives in a single, human-only code path, structurally decoupled from every agent and LLM call.
+* Delivered explainable risk reports across 12 synthetic underwriting scenarios using a rule-based scoring engine spanning 5 risk dimensions: debt-to-income, credit risk, income stability, cash flow risk, and loan exposure.
+* Backed by 11 automated backend tests (100% pass rate) and deployed live on Render — click through the demo above to run a full underwriting scenario yourself.
+
+---
+
 ### [Intelligent Digital Assets Assistant (IDAA)](https://github.com/AdityaNikhil/IDAA)
 **Core Contributor for Advisor Agent**
 * Architected a multi-agent system using **LangGraph** and **LangChain**, implementing a Supervisor LLM to route intent-based queries with 90% accuracy.
