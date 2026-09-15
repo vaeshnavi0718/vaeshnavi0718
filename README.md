@@ -1,7 +1,7 @@
 # Hello, I'm Vaeshnavi Vella
-I'm a **AI Engineer** building full-stack applications and AI-powered products, from **React/Python full-stack features** to **RAG-based GenAI systems** and **multi-agent orchestration**. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
+I'm an **AI/ML Engineer** building intelligent, agentic systems — from **RAG pipelines** and **multi-agent orchestration** to production-grade LLM applications. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
 
-🔭 **Current Focus:** Developing production-grade AI agents using **LangGraph** and **LangChain**, and shipping full-stack features in **React** and **Java/Spring Boot**.
+🔭 **Current Focus:** Building **human-in-the-loop + agentic** AI systems using **LangGraph** and **LangChain**.
 
 🆕 **Latest build:** An auditable, human-in-the-loop multi-agent loan underwriting pipeline — [try the live demo](https://loan-underwriting-pipeline.onrender.com) 👇
 
@@ -10,7 +10,6 @@ I'm a **AI Engineer** building full-stack applications and AI-powered products, 
 ---
 ## 💻 Tech Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
@@ -54,7 +53,7 @@ An agentic loan underwriting system built around one hard rule: **the AI can ana
 * Designed semantic retrieval logic (cosine similarity >0.75) for contextually accurate investment recommendations.
 
 ---
-## 📓 Tech Journal
+## 📓 Tech Journal (upcoming)
 I document everything I learn: concepts, paper summaries, interview prep, and weekly notes, in my open learning journal.
 👉 [vaeshnavis-tech-journal](https://github.com/vaeshnavi0718/vaeshnavis-tech-journal)
 *If you're studying AI/ML too, feel free to follow along or use it as a reference.*
