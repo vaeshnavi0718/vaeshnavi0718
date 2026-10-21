@@ -1,9 +1,9 @@
 # Hello, I'm Vaeshnavi Vella
-I'm an **AI/ML Engineer** building intelligent, agentic systems — from **RAG pipelines** and **multi-agent orchestration** to production-grade LLM applications. I'm currently a Data Engineer at the Community Dreams Foundation, building scalable ETL pipelines, alongside my core work as a Junior AI Engineer developing production agentic systems.
+I'm an **AI Engineer** building agentic systems people can trust: **multi-agent orchestration**, **RAG**, and the **evaluations** that prove they work. I'm currently a **Junior AI Engineer at Macro Software Solution**, building a LangGraph agent that qualifies leads and hands high-intent conversations to a person. Before that I was a Data Engineer at the Community Dreams Foundation, building PySpark and Airflow pipelines on AWS.
 
-🔭 **Current Focus:** Building **human-in-the-loop + agentic** AI systems using **LangGraph** and **LangChain**.
+🔭 **Current Focus:** human-in-the-loop agents for high-stakes workflows, **LLM evaluation** (code graders, LLM-as-judge), and **reinforcement learning** for personalization.
 
-🆕 **Latest build:** An auditable, human-in-the-loop multi-agent loan underwriting pipeline — [try the live demo](https://loan-underwriting-pipeline.onrender.com) 👇
+🆕 **Latest builds:** a multi-agent credit underwriting harness with a CI eval suite ([live demo](https://loan-underwriting-pipeline.onrender.com)) and Reading Buddy, a contextual bandit for dyslexia-friendly reading ([live demo](https://vaeshnavi0718.github.io/reading-buddy/)) 👇
 
 📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/vaeshnavi-vella) | vaeshvella18@gmail.com
 
@@ -32,16 +32,28 @@ I'm an **AI/ML Engineer** building intelligent, agentic systems — from **RAG p
 ---
 ## 🚀 Featured Projects:
 
-### 🏦 [Auditable Multi-Agent Loan Underwriting Pipeline](https://github.com/vaeshnavi0718/loan-underwriting-pipeline)
-**Solo-built — architecture, agents, guardrails, and deployment**
+### 🏦 [Auditable Multi-Agent Credit Underwriting Harness](https://github.com/vaeshnavi0718/loan-underwriting-pipeline)
+**Solo-built: architecture, agents, guardrails, evals, and deployment**
 ### 🔗 [Live Demo](https://loan-underwriting-pipeline.onrender.com) &nbsp;|&nbsp; 💻 [Source Code](https://github.com/vaeshnavi0718/loan-underwriting-pipeline)
 
-An agentic loan underwriting system built around one hard rule: **the AI can analyze, but only a human can decide.**
+An agentic underwriting system built around one hard rule: **the AI can analyze, but only a human can decide.**
 
-* Architected an **Agent Harness** — a central orchestration layer coordinating 4 specialized agents (document extraction, data enrichment, risk analysis, LLM-based review) through a 7-stage pipeline with shared state, routing, retries, and the ability to pause and resume incomplete applications.
-* Enforced a hard guardrail so **no AI agent can ever issue a final approve/deny decision** — verified by an automated test that raises a `GuardrailViolation` if any agent attempts to override it. Final decision authority lives in a single, human-only code path, structurally decoupled from every agent and LLM call.
-* Delivered explainable risk reports across 12 synthetic underwriting scenarios using a rule-based scoring engine spanning 5 risk dimensions: debt-to-income, credit risk, income stability, cash flow risk, and loan exposure.
-* Backed by 11 automated backend tests (100% pass rate) and deployed live on Render — click through the demo above to run a full underwriting scenario yourself.
+* Architected an **Agent Harness** coordinating 4 specialized agents (document extraction, data enrichment, rule-based risk analysis, LLM-based review) through a 7-stage workflow with shared state, retries, and pause/resume.
+* Enforced a guardrail so **no AI agent can ever issue a final approve/deny decision**: every agent status change goes through one function that refuses it, and tests prove only the human-only code path can decide.
+* Built a reusable **LLM evaluation suite** (12 labeled scenarios × 3 runs): code graders in CI (schema, pipeline status, grounding of 300+ cited dollar amounts, decision language) and an **LLM judge whose quotes are verified in code**.
+* Validated the judge with a negative control (0/14 absent facts accepted); the evals caught the agent **misreading a risk rating in 6 of 7 reports**.
+
+*The free-tier demo sleeps when idle: the first load takes about 30 seconds.*
+
+---
+
+### 📖 [Reading Buddy](https://github.com/vaeshnavi0718/reading-buddy)
+**Solo-built: a rebuild of a learning buddy for dyslexic readers I first tried to make four years ago**
+### 🔗 [Live Demo](https://vaeshnavi0718.github.io/reading-buddy/) &nbsp;|&nbsp; 💻 [Source Code](https://github.com/vaeshnavi0718/reading-buddy)
+
+* Framed personalized reading support as a **contextual bandit** choosing among 24 reading settings (font, spacing, chunking, read-aloud speed).
+* Compared 7 strategies on 300 simulated readers × 20 seeds: **contextual Thompson sampling cut regret 56%** vs fixed defaults and raised comprehension success for new readers from 45% to 59%.
+* Interactive demo: watch strategies race on a simulated reader, or be the reader and let it adapt to you.
 
 ---
 
@@ -51,6 +63,11 @@ An agentic loan underwriting system built around one hard rule: **the AI can ana
 * Engineered an end-to-end **Agentic RAG pipeline** with **FAISS** vector indexing, achieving sub-200ms retrieval latency.
 * Implemented **Redis caching** and **FastAPI** backends, reducing embedding computation by 60% during high-concurrency periods.
 * Designed semantic retrieval logic (cosine similarity >0.75) for contextually accurate investment recommendations.
+
+---
+
+### ☁️ [read-to-me](https://github.com/vaeshnavi0718/read-to-me)
+A cute, minimal page that reads PDFs and web articles aloud, with sentence highlighting, voice choice and speed control (React + TypeScript).
 
 ---
 ## 📓 Tech Journal (upcoming)
