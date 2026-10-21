@@ -1,5 +1,5 @@
 # Hello, I'm Vaeshnavi Vella
-I'm an **AI Engineer** building agentic systems people can trust: **multi-agent orchestration**, **RAG**, and the **evaluations** that prove they work. I'm currently a **Junior AI Engineer at Macro Software Solution**, building a LangGraph agent that qualifies leads and hands high-intent conversations to a person. Before that I was a Data Engineer at the Community Dreams Foundation, building PySpark and Airflow pipelines on AWS.
+I'm an **AI Engineer** building agentic systems people can trust: **multi-agent orchestration**, **RAG**, and the **evaluations** that prove they work. I'm currently a **Junior AI Engineer at Macro Software Solution**, building a LangGraph agent that qualifies leads and hands high-intent conversations to a person. Before that I was a Data Engineer at CDF, building PySpark and Airflow pipelines on AWS.
 
 🔭 **Current Focus:** human-in-the-loop agents for high-stakes workflows, **LLM evaluation** (code graders, LLM-as-judge), and **reinforcement learning** for personalization.
 
